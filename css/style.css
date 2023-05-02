@@ -80,10 +80,6 @@ section{
 } */
 
 /* SECTION 2 */
-.row{
-    display: flex;
-    flex-direction: column;
-}
 .col_50{
     width: calc(100% - 20px);
     height: 300px;
@@ -96,17 +92,30 @@ section{
 }
 
 /* SECTION 3 */
-.row{
-    display: flex;
-    flex-direction: column;
-}
-
-.col_25{
+.col_33{
     width: calc(100% - 20px);
     height: 300px;
     margin: 10px;
     background-color: green;
 }
+
+/* SECTION 4 */
+.col_30_2{
+    width: calc(100% - 20px);
+    height: 300px;
+    background-color: red;
+    margin: 10px;
+}
+
+/* SECTION 5 */
+
+/* SECTION 6 */
+
+/* FOOTER */
+footer{
+    background-color: rgba(51,51,51,1);
+}
+
 
 /* RESPONSIVITY */
 /* TABLET */
@@ -128,6 +137,9 @@ section{
         width: calc(100% / 3 - 20px);
     }
 
+    .col_30_2{
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 
@@ -147,6 +159,10 @@ section{
 
     .col_50{
         width: calc(100% / 2 - 20px);
+    }
+
+    .col_30_2{
+        width: calc(100% / 3 - 20px);
     }
 }
 
