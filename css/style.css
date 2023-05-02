@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* HEADER */
 header{
-    background-color: blue;
+    background-color: rgba(0,132,253,1);
 }
 
 .container{
@@ -20,9 +24,6 @@ header{
 }
 
 .left_logo, .right_menu{
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
     margin: 10px;
 }
 
@@ -36,12 +37,32 @@ header{
 }
 
 .extended_menu{
-    background-color: red;
     display: none;
+    padding-top: 10px;
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
 
 .hamburger{
-    background-color: green;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hamburger i{
+    font-size: 30px;
 }
 
 /* MAIN */
