@@ -139,6 +139,10 @@ section{
     padding-bottom: 30px;
 }
 
+.img_margin_bottom{
+    margin-bottom: -4px;
+}
+
 /* SECTION 2 */
 .col_50{
     width: calc(100% - 20px);
@@ -293,7 +297,7 @@ footer{
     }
 
     .rigth_content{
-        padding-top: 115px;
+        padding-top: 139px;
     }
 
     .rigth_content img{
